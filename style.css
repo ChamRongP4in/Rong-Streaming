@@ -908,8 +908,8 @@ h6, .h6{
     transition: all 0.5s ease-out 0s;
 }
 .btn-hover{
-    background: ##ff6600;
-    border: 1px solid ##ff6600;
+    background: #a04101;
+    border: 1px solid #c44f01;
     color: #fff;
     transition:color 0.3s ease;
     display: inline-block;
@@ -1048,7 +1048,7 @@ a.text-primary:focus, a.text-primary:hover{
     color: #ff6600 !important;
 }
 .iq-view-all:hover{
-    color: ##ff6600;
+    color: #ff6600;
 }
 .favorites-slider .slick-list{
     overflow: visible;
@@ -1295,7 +1295,7 @@ li.slide-item{
     font-size: 15px !important;
 }
 .share-box a:hover{
-    color: ##ff6600 !important;
+    color: #ff6600 !important;
 }
 .favorites-slider .slick-arrow{
     display: flex;
