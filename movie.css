@@ -757,6 +757,38 @@ header#main-header.menu-sticky{
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
 
+/* ==== iphone 14 ==== */
+@media (max-width: 440px) {
+    .grid-container1 .Mcard {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+        gap: 10px;
+        padding: 110px;
+        background-color: #000;
+    }
+    .card img {
+        width: 100%;
+        height: 100px;
+    }
+}
+
+
+/* ==== iphone 11 ==== */
+@media (max-width: 414px) {
+}
+
+
+
+/* ==== iphone X ==== */
+@media (max-width: 390px) {
+}
+
+
+
+/* ==== Android ==== */
+@media (max-width: 360px) {
+}
+
 
 
 /* ***************** footer **************** */
