@@ -16,7 +16,8 @@ body{
     padding: 0 100px;
 }
 header#main-header{
-    position: fixed;
+    position: sticky;
+    top: 0;
     left: 0;
     right: 0;
     text-align: center;
@@ -720,17 +721,17 @@ header#main-header.menu-sticky{
 
 /* Grid Container */
 .grid-container1 .Mcard {
-    display: grid;
+    margin: 10px 30px 60px 30px ;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 200px;
-    background-color: #000;
+    display: grid;
+    gap: 1rem;
+    background-color: #0c0c0c;
 }
 
 
 /* Cards */
 .card {
-    background-color: #222222;
+    background-color: #111111bd;
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s;
@@ -739,7 +740,7 @@ header#main-header.menu-sticky{
 
 .card img {
     width: 100%;
-    height: 250px;
+    height: 260px;
 }
 
 .card .info {
@@ -760,15 +761,12 @@ header#main-header.menu-sticky{
 /* ==== iphone 14 ==== */
 @media (max-width: 440px) {
     .grid-container1 .Mcard {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
-        gap: 10px;
-        padding: 110px;
-        background-color: #000;
+        margin: 10px 30px 60px 30px ;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     }
     .card img {
         width: 100%;
-        height: 100px;
+        height: 150px;
     }
 }
 
